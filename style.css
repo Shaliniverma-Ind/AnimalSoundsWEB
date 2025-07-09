@@ -39,7 +39,8 @@ footer{
 }
 
 .set {
-  margin: 12% auto;
+  margin: 10% auto;
+  display: inline-block ;
 }
 
 .animal{
