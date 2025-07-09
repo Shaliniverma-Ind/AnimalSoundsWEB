@@ -17,32 +17,43 @@ footer{
 
 .c{
   background-image: url(AnimalPictures/cat.png);
-  background-size: 180px 130px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .h{
   background-image: url(AnimalPictures/horse.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .l{
   background-image: url(AnimalPictures/lion.png);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .d{
   background-image: url(AnimalPictures/dog.png);
-  background-size: 180px 135px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .e{
   background-image: url(AnimalPictures/elephant.png);
-  background-size: 175px 130px;
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .set {
   margin: 10% auto;
   display: flex ;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center;;
   padding: 20px;
 
 }
@@ -58,9 +69,14 @@ footer{
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
-  width: 200px;
-  height: 150px;
+  width: 30vw;
+  max-width: 200px;
+  aspect-ratio: 4/3;
+  height: auto;
   text-align: center;
   margin: 10px;
   background-color: white;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
