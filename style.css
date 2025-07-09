@@ -1,0 +1,61 @@
+body{
+    background-image: url(AnimalPictures/forest\ image.png);
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+    color: darkslategray;
+    font-family: "Arvo",cursive;
+    text-shadow: 3px 0  rgb(150, 202, 197);
+}
+footer{
+    color: cornsilk;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.c{
+  background-image: url(AnimalPictures/cat.png);
+  background-size: 180px 130px;
+}
+.h{
+  background-image: url(AnimalPictures/horse.png);
+}
+
+.l{
+  background-image: url(AnimalPictures/lion.png);
+  background-size: cover;
+}
+
+.d{
+  background-image: url(AnimalPictures/dog.png);
+  background-size: 180px 135px;
+}
+
+.e{
+  background-image: url(AnimalPictures/elephant.png);
+  background-size: 175px 130px;
+}
+
+.set {
+  margin: 12% auto;
+}
+
+.animal{
+  outline: none;
+  border: 10px solid rgb(19, 92, 92);
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: darkslategray;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
