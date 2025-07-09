@@ -40,7 +40,11 @@ footer{
 
 .set {
   margin: 10% auto;
-  display: inline-block ;
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+
 }
 
 .animal{
